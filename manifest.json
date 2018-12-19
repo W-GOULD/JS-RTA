@@ -1,13 +1,11 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
   "name": "JavaScript - Real-Time Analysis",
   "description": "JavaScript Real-Time Analysis does what it says on the tin. JS-RTA allows analysis of scripts being loaded in to the web page.",
   "version": "1",
   "author": "Will Gould (Cyberis)",
     "browser_action": {
-    "icons": { "16": "icon16.png",
-           "48": "icon48.png",
-          "128": "icon128.png" },
+    "icons": { "128": "icon128.png" },
   "default_title": "JavaScript - Real-Time Analysis"
 },
   "chrome_url_overrides" : {
