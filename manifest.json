@@ -5,7 +5,9 @@
   "version": "1",
   "author": "Will Gould (Cyberis)",
     "browser_action": {
-    "default_icon": "tab-icon.png",
+    "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
   "default_title": "JavaScript - Real-Time Analysis"
 },
   "chrome_url_overrides" : {
